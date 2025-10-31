@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+class Car{
+    public: // public Ascess specifier
+    string brand;
+    string model;
+    int price;
+    int year;
+
+    // Funtion to display the output
+     void display()
+     {
+         cout<<"Brand Name"<<brand<<endl;
+         cout<<"model name"<<model<<endl;
+         cout<<"price"<<price<<endl;
+         cout<<"year of manufacturing"<<year<<endl;
+     }
+     
+     
+};
+
+    int main() {
+    Car car1; //Creating an object of the class Car
+    car1.brand = "ferrari";
+    car1.model = "mustang";
+    car1.price = 100000;
+    car1.year = 2025;
+    
+    cout<<car1.brand<<endl; //Direct way of printing
+    cout<<car1.model<<endl; // direct way of printing
+    
+    car1.display(); // displaying the o/p using function
+    
+    return 0;
+}

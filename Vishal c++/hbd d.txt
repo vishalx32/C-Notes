@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function defnition
+void greet()
+{
+    cout<<"happy birthdayy dhonii!!!! "<<endl;
+}
+
+int main()
+{
+    greet(); // calling the fuction
+    greet();
+//body
+return 0;
+}

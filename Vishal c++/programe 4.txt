@@ -1,0 +1,17 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    string name;
+    int age;
+    float height;
+    double weiht;
+    char blood_group;
+    
+    cout<<"enter your name:"<<endl;
+    cout<<"enter your age:"<<endl;
+    cout<<"eter your height:"<<endl;
+    cout<<"enter your weight:"<<endl;
+    cout<<"enter your blood group:"<<endl;
+    return 0;
+}

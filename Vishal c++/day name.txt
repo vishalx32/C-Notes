@@ -1,0 +1,46 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+    char day;
+    cout <<"Enter a charecter corresponding to the day of the week(M,T,W,H.F.S,Y):";
+    cin>>day;
+    day=toupper(day);
+    // switch statement to determine the Day of the week
+    switch(day)
+     
+     {
+         case'M':
+         cout << "monday" <<endl;
+         break;
+         
+         case 'T':
+         cout << "tuesday" <<endl;
+         break;       
+
+         case'W':
+         cout << "wednesday" <<endl;
+         break;
+         
+         case'H':
+         cout << "thursday" <<endl;
+         break;  
+    
+         case 'F': 
+         cout << "friday" <<endl;
+         break;
+         
+         case 'S':
+         cout << "saturday" <<endl;
+         break; 
+         
+          case'Y':
+         cout << "sunday" <<endl;
+         break;
+         default:
+         cout<<"invalid input! please enter a valid days of week "<<endl;
+         break;
+     }
+        return 0;
+}        

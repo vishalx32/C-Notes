@@ -1,0 +1,24 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+class Car{
+    public: // public Ascess specifier
+    string brand;
+    string model;
+    int price;
+    int year;
+};
+
+int main() {
+    Car car1; //Creating an object of the class Car
+    car1.brand = "ferrari";
+    car1.model = "mustang";
+    car1.price = 100000;
+    car1.year = 2025;
+    
+    cout<<car1.brand<<endl; //Direct way of printing
+    cout<<car1.model<<endl; // direct way of printing
+    
+    return 0;
+}

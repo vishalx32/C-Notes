@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+class mobile {
+    public://publicacces specifier
+    string brand;
+    string model;
+    int price;
+    int year;
+    
+    void display(){
+        
+        cout<<"brand name is:"<<brand<<endl;
+        cout<<"model is:"<<model<<endl;
+        cout<<"price of the mobile:"<<year<<endl;
+        cout<<"year of manufacture is:"<<year<<endl;
+    }
+};
+
+int main(){
+    mobile mobile1;//creating an object of the class mobile
+    cout<<"enter the brand the name:"<<endl;
+    //cin>>mobile1.brand
+    getline(cin,mobile1.brand);
+    cout<<"enter the model name:"<<endl;
+    getline(cin,mobile1.model);
+    cout<<"enter the price:"<<endl;
+    cin>>mobile1.price;
+    cout<<"enter the manufacturing year:"<<endl;
+     cin>>mobile1.year;
+     mobile1.display();
+
+     return 0;
+}

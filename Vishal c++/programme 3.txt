@@ -1,0 +1,19 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+    // Integer data type used to store whole numbers
+    int a = 10;
+    
+    //float data type used to store decimal numbers 
+    float b = 50.6;
+    double c =10.8992653;
+    char d ='s';
+    string e = "sivateja";
+    
+   cout <<"Integer"<<a<<endl;
+   cout <<"Float"<<b<<endl;
+
+    return 0;
+}
